@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <titleInfo>
+    <title>Hitchhiker's Guide to Islandora</title>
+    <subTitle>This is an Amazing Book</subTitle>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Don Richards</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">Amazing Book maker</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">scifi</genre>
+  <tableOfContents/>
+  <originInfo>
+    <dateIssued>2018-04-01</dateIssued>
+    <copyrightDate>2018-04-02</copyrightDate>
+    <issuance>monographic</issuance>
+    <edition>1st</edition>
+    <publisher>Islandora Book Press</publisher>
+    <place>
+      <placeTerm authority="marccountry">Canada</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Kiwa</placeTerm>
+    </place>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract>Boxfish Ratfish, great white shark triggerfish, brook trout Black swallower, squeaker, "burrowing goby sailfin silverside Steve fish." Powen lake whitefish hammerhead shark Atlantic cod; waryfish dace oldwife p&#xED;ntano! Siamese fighting fish, pupfish priapumfish cutlassfish sheatfish Chinook salmon mustache triggerfish pearleye driftfish Pacific saury Black angelfish flying characin darter? Crucian carp whitefish?" Panga bocaccio Black angelfish riffle dace whitefish, deep sea bonefish halfmoon; spaghetti eel. Sundaland noodlefish Spanish mackerel cow shark threespine stickleback Canthigaster rostrata kaluga leatherjacket grouper. Coley bigscale fish zebra pleco. Huchen stargazer chain pickerel vendace king of herring Japanese eel, Modoc sucker molly sandburrower sand tiger, sand dab.</abstract>
+  <identifier type="isbn"/>
+  <physicalDescription>
+    <form authority="marcform"/>
+    <extent/>
+  </physicalDescription>
+  <note type="statement of responsibility"/>
+  <note>Pretty amazing book</note>
+  <subject>
+    <topic>lobster</topic>
+    <geographic/>
+    <temporal/>
+    <hierarchicalGeographic>
+      <continent/>
+      <country/>
+      <province/>
+      <region/>
+      <county/>
+      <city/>
+      <citySection/>
+    </hierarchicalGeographic>
+    <cartographics>
+      <coordinates/>
+    </cartographics>
+  </subject>
+  <classification authority="lcc"/>
+  <classification edition="21" authority="ddc"/>
+</mods>
