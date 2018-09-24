@@ -15,8 +15,8 @@ git clone https://github.com/DonRichards/Islandora-Book-Batch-Example
 
 cd /var/www/drupal
 
-# This tells the to put the Islandora-Book-Batch-Example book(s) into the collection name bookCollection
-drush -v -u 1 --uri=http://localhost islandora_book_batch_preprocess --namespace=bookCollection --type=directory --target=/vagrant/Islandora-Book-Batch-Example/
+# This tells drush to put the Islandora-Book-Batch-Example book(s) into the collection name bookCollection
+drush -v --user=admin --uri=http://localhost islandora_book_batch_preprocess --namespace=bookCollection --type=directory --target=/vagrant/Islandora-Book-Batch-Example/
 
 drush -v --user=admin --uri=http://localhost islandora_batch_ingest
 ```
