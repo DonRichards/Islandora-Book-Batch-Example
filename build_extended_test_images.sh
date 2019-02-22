@@ -42,7 +42,9 @@ rm -rf pages_compression_test_jp2
 rm -rf pages_alpha_channel_test
 rm -rf *.zip
 
-[[ -d "${DIR}/compression_test" ]] || mkdir compression_test
+[[ -d "${DIR}/pages_compression_test_tiffs" ]] || mkdir pages_compression_test_tiffs
+[[ -d "${DIR}/pages_compression_test_jp2" ]] || mkdir pages_compression_test_jp2
+[[ -d "${DIR}/pages_alpha_channel_test" ]] || mkdir pages_alpha_channel_test
 
 : '
 Build a compressed image test
