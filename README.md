@@ -4,6 +4,8 @@ This is an example of Islandora Book Batch data needed for testing or used as an
 ## How to use within islandora_vagrant
 Clone this repo into the directory you're running vagrant from. From within islandora_vagrant the drupal will see their file location at /vagrant/Islandora-Book-Batch-Example/
 
+Create variations of the images/pages as tiffs, jp2s. This will create uncompressed, compressed and alpha channel images to test with. just run the build_extended_test_images.sh
+
 Run the instructions from [Islandora/islandora_book_batch](https://github.com/Islandora/islandora_book_batch)
 
 ### Example
