@@ -24,7 +24,7 @@ drush -v --user=admin --uri=http://localhost islandora_batch_ingest
 ```
 
 #### Example of multiple issues of a book
-File structures like this tree view example would process each subdirectory as an issue into the same collection. They will display as different books within the same collection. 
+File structures like this tree view example would process each subdirectory as an issue into the same collection. They will display as different books within the same collection.
 ```tree
 /vagrant/Islandora-Book-Batch-Example/
 ├── test_book_issue_01
@@ -49,3 +49,6 @@ $ drush -v -u 1 --uri=http://localhost islandora_book_batch_preprocess --namespa
 ```
 ### NOTE:
 This will run in the /vagrant/Islandora-Book-Batch-Example/ directory and will see each directory as a book and all subdirectories as pages. This instructions are exact for islandora_vagrant and should work out of the box (copy paste should work right after islandora_vagrant completely starts).
+
+#### /automated_ingest_test
+Meant to be used with https://github.com/utkdigitalinitiatives/Automated-Ingest-for-Continuing-Publications as an example.

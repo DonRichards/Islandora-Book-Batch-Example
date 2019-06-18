@@ -97,10 +97,16 @@ echo -e '\n  Making the alpha channel for book > Pages > Zipped Pages zip file..
 zip -0 -qr ${DIR}/pages_alpha_channel_test_zipped_pages.zip ${DIR}/pages_alpha_channel_test
 echo -n -e "\tdone\n\n"
 
+
+
 echo -e '\n  Making the test book zip file...\n'
 zip -0 -qr ${DIR}/test_book_for_book_batch.zip ${DIR}/pages_alpha_channel_test
 echo -n -e "\tdone\n\n"
 
+[[ -d "${DIR}/automated_ingest_test" ]] || mkdir ${DIR}/automated_ingest_test
+[[ -d "${DIR}/automated_ingest_test/book" ]] || mkdir ${DIR}/automated_ingest_test/book
 
-
+echo -e "mods_title: \"Handbook of the Smoky Mountains Hiking Club\"\nmods_dateIssued: \"2012\"" > ${DIR}/automated_ingest_test/book/seventh_edition.yml
+cp -r ${DIR}/test_book ${DIR}/automated_ingest_test/book/seventh_edition
+rm -f ${DIR}/automated_ingest_test/book/seventh_edition/MODS.xml
 echo -e "\n\n\nAll files created.\n\n\n"
